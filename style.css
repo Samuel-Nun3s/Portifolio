@@ -67,23 +67,20 @@ section#apresentacao h1, h2{
 
 section#apresentacao {
     display: flex;
-    max-width: 1000px;
+    max-width: 1400px;
     margin: auto;
 }
 
 section#apresentacao > div {
-    margin-top: 100px;
-    padding: 7px;
-}
-
-section#apresentacao > div > p, h2 {
-    text-indent: 20px;
+    margin: 5vw;
+    padding: 1vw;
+    font-size: 1.6vw;
 }
 
 section#apresentacao > img {
-    margin-top: 50px;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
     box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
-    margin: 10px;
     border-radius: 5px;
 }
 
