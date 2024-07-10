@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    min-height: 100px;
+    min-height: 110px;
     background-color: var(--cor4);
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.507);
 }
@@ -40,7 +40,7 @@ header > div > nav {
     display: block;
     text-align: right;
     padding-right: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 header > div > nav > a {
@@ -72,21 +72,19 @@ section#apresentacao {
 }
 
 section#apresentacao > div {
-    margin: 5vw;
+    margin: auto;
     padding: 1vw;
-    font-size: 1.6vw;
+    font-size: 2vw;
 }
 
-section#apresentacao > img {
-    margin-top: 3vw;
-    margin-bottom: 2vw;
+picture > img {
+    margin: 22px;
     box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
 
 section#tecnologias {
     background-color: var(--cor2);
-    margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.507)
 }
