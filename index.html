@@ -12,7 +12,6 @@
             <a href="#"><img src="imagens/logo.png" alt="logo"></a>
             <nav>
                 <a href="#">Sobre</a>
-                <a href="#">Portifolio</a>
                 <a href="#">Contato</a>
                 <a href="#">GitHub</a>
             </nav>
@@ -20,7 +19,7 @@
     </header>
     <main>
         <section id="apresentacao">
-            <picture>
+            <picture id="foto">
                 <source media="(max-width: 674px)" srcset="imagens/minha_foto_p.png">
                 <source media="(max-width: 1512px)" srcset="imagens/minha_foto_m.png">
                 <img src="imagens/minha_foto_g.png" alt="Samuel Nunes">
@@ -55,36 +54,43 @@
             <div id="projetos">
                 <div id="projeto1">
                         <a href="#">
-                        <img src="imagens/teste.png" alt="Projeto 01">
+                            <picture class="foto_projetos">
+                                <source media="(max-width: 675px)" srcset="imagens/teste_m.png">
+                                <img src="imagens/teste_g.png" alt="Projeto 01">
+                            </picture>
                         <h1>Projeto01</h1>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     </a>
                 </div>
-                <div id="projeto2">
+                <!--<div id="projeto2">
                         <a href="#">
-                        <img src="imagens/teste.png" alt="Projeto 02">
+                            <picture class="foto_projetos">
+                                <source media="(max-width: 675px)" srcset="imagens/teste_m.png">
+                                <img src="imagens/teste_g.png" alt="Projeto 02">
+                            </picture>
                         <h1>Projeto02</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </a>
                 </div>
                 <div id="projeto3">
                     <a href="#">
-                        <img src="imagens/teste.png" alt="Projeto 03">
+                        <picture class="foto_projetos">
+                            <source media="(max-width: 675px)" srcset="imagens/teste_m.png">
+                            <img src="imagens/teste_g.png" alt="Projeto 03">
+                        </picture>
                         <h1>Projeto03</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </a>
-                </div>
+                </div> -->
             </div>
         </section>
     </main>
     <footer>
         <nav>
             <a href="#">Sobre</a>
-            <a href="#">Portifolio</a>
             <a href="#">Contato</a>
             <a href="#">GitHub</a>
         </nav>
-        <p>Criado Por <strong>Samuel Nunes</strong></p>
     </footer>
 </body>
 </html>
