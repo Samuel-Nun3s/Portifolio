@@ -65,6 +65,11 @@ header > div {
     max-width: 1140px;
 }
 
+main {
+    position: relative;
+    min-height: 100%;
+}
+
 section#apresentacao h1, h2{
     font-family: var(--fonte_destaque);
 }
@@ -188,7 +193,7 @@ footer {
     box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.5);
     bottom: 0;
     width: 100%;
-    height: 22vh;
+    height: 90px;
 }
 
 footer p {
